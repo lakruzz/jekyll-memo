@@ -7,6 +7,8 @@ main:
     url: /score/
   - title: "Gauges"
     url: /gauges/
+  - title: "Stories"
+    url: /stories/
   - title: "About"
     url: /about-model/
   - title: "💬"

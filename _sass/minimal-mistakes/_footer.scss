@@ -2,6 +2,10 @@
    FOOTER
    ========================================================================== */
 
+@use "mixins" as *;
+@use "variables" as *;
+@use "minimal-mistakes/vendor/breakpoint/breakpoint" as *;
+
 .page__footer {
   @include clearfix;
   float: left;

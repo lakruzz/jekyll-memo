@@ -6,6 +6,9 @@
    Default button
    ========================================================================== */
 
+@use "variables" as *;
+@use "mixins" as *;
+
 .btn {
   /* default */
   display: inline-block;

@@ -4,6 +4,8 @@
 
 // overlay
 @use "sass:math";
+@use "minimal-mistakes/variables" as vars;
+$serif: vars.$serif;
 
 $mfp-overlay-color:                   #000;                     // Color of overlay screen
 $mfp-overlay-opacity:                 0.8;                        // Opacity of overlay screen

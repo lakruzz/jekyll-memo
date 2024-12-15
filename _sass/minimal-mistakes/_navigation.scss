@@ -6,6 +6,10 @@
    Breadcrumb navigation links
    ========================================================================== */
 
+@use "variables" as *;   
+@use "mixins" as *;
+@use "minimal-mistakes/vendor/breakpoint/breakpoint" as *;
+
 .breadcrumbs {
   @include clearfix;
   margin: 0 auto;

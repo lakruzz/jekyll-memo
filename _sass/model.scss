@@ -2,13 +2,13 @@
 
 
 /* any style customization must be before the bootstrap import */
-@import "model/variables";
-@import "model/google-fonts";
-@import "model/card"; //the old  helpers/bg, compontent/tag, component/stars, pages/score are now included in card
-@import "model/matrix"; //this is the old components/matrix
-@import "model/model-card-single"; //this is the old pages/card
-@import "model/model-page-single"; //this is the old pages/gauge
-@import "model/model-tag-single"; //this is the old pages/tag
+@use "model/variables";
+@use "model/google-fonts";
+@use "model/card"; //the old  helpers/bg, compontent/tag, component/stars, pages/score are now included in card
+@use "model/matrix"; //this is the old components/matrix
+@use "model/model-card-single"; //this is the old pages/card
+@use "model/model-page-single"; //this is the old pages/gauge
+@use "model/model-tag-single"; //this is the old pages/tag
 
 
 // not seeing any important styles here

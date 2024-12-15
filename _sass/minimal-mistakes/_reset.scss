@@ -2,6 +2,8 @@
    STYLE RESETS
    ========================================================================== */
 
+@use "minimal-mistakes/variables" as *;
+@use "minimal-mistakes/vendor/breakpoint/breakpoint" as *; 
 * { box-sizing: border-box; }
 
 html {

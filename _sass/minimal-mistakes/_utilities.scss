@@ -7,6 +7,10 @@
    ========================================================================== */
 
 /* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
+@use "mixins" as *;
+@use "variables" as *;
+@use "minimal-mistakes/vendor/breakpoint/breakpoint" as *;
+@use "minimal-mistakes/vendor/susy/susy/unprefix" as *;
 
 .hidden,
 .is--hidden {

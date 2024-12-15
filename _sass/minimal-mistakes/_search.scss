@@ -1,6 +1,9 @@
 /* ==========================================================================
    SEARCH
    ========================================================================== */
+@use "mixins" as *;
+@use "variables" as *;
+@use "minimal-mistakes/vendor/breakpoint/breakpoint" as *;
 
 .layout--search {
   .archive__item-teaser {
